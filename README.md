@@ -17,6 +17,5 @@
 
 ### Spring boot Section
 * [rabbitmq-with-springboot.md](05.%20rabbitmq-with-springboot.md)
-* com.example.queuepublisher.RabbitMqApplication
 
 
