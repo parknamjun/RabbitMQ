@@ -15,19 +15,20 @@ import java.io.ObjectInputStream;
 
 @Service
 public class RabbitMQConsumer {
-
+/*
     @RabbitListener(queues = "Mobile")
-    public void receiveMessage(@Payload String payload) {
-        System.out.println("Received message Mobile Headers Exchange: " + payload);
+    public void getMessageFromMobile(Person person) {
+        System.out.println("RabbitMQConsumer - getMessageFromMobile=" + person.getName());
     }
 
     @RabbitListener(queues = "AC")
-    public void receiveMessageAC(@Payload String payload) {
-        System.out.println("Received message AC: " + payload);
+    public void getMessageFromAC(Person person) {
+        System.out.println("RabbitMQConsumer - getMessageFromAC=" + person.getName());
     }
 
     @RabbitListener(queues = "TV")
-    public void receiveMessageTV(@Payload String payload) {
-        System.out.println("Received message TV: " + payload);
+    public void getMessageFromTV(Person person) {
+        System.out.println("RabbitMQConsumer - getMessageFromTV=" + person.getName());
     }
+*/
 }
